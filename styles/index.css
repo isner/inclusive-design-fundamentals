@@ -134,37 +134,37 @@ input.print-button:hover, input.print-button:active {
 }
 
 .colorblind {
-    background: url(/icons/colorblind-white.png);
+    background: url(../icons/colorblind-white.png);
 		background-size: contain;
 }
 
 .low-vision {
-    background: url(/icons/low-vision-white.png);
+    background: url(../icons/low-vision-white.png);
 		background-size: contain;
 }
 
 .blind {
-    background: url(/icons/blind-white.png);
+    background: url(../icons/blind-white.png);
 		background-size: contain;
 }
 
 .cognitive {
-    background: url(/icons/cognitive-white.png);
+    background: url(../icons/cognitive-white.png);
 		background-size: contain;
 }
 
 .physical {
-    background: url(/icons/physical-white.png);
+    background: url(../icons/physical-white.png);
 		background-size: contain;
 }
 
 .deaf {
-    background: url(/icons/deaf-white.png);
+    background: url(../icons/deaf-white.png);
 		background-size: contain;
 }
 
 .elderly {
-    background: url(/icons/elderly-white.png);
+    background: url(../icons/elderly-white.png);
 		background-size: contain;
 }
 
@@ -174,7 +174,7 @@ ul.checklist {
 }
 
 .checklist li {
-	background: url(/icons/checkbox.png) no-repeat left top;
+	background: url(../icons/checkbox.png) no-repeat left top;
 	background-size: contain;
 	list-style-type: none;
 	padding: 0 0 18px 35px;
@@ -265,37 +265,37 @@ Print styles
 	}
 
 	.colorblind {
-    	content: url(/icons/colorblind.png);
+    	content: url(../icons/colorblind.png);
 			background-size: contain;
 	}
 
 	.low-vision {
-	    content: url(/icons/low-vision.png);
+	    content: url(../icons/low-vision.png);
 			background-size: contain;
 	}
 
 	.blind {
-	    content: url(/icons/blind.png);
+	    content: url(../icons/blind.png);
 			background-size: contain;
 	}
 
 	.cognitive {
-	    content: url(/icons/cognitive.png);
+	    content: url(../icons/cognitive.png);
 			background-size: contain;
 	}
 
 	.physical {
-	    content: url(/icons/physical.png);
+	    content: url(../icons/physical.png);
 			background-size: contain;
 	}
 
 	.deaf {
-	    content: url(/icons/deaf.png);
+	    content: url(../icons/deaf.png);
 			background-size: contain;
 	}
 
 	.elderly {
-	    content: url(/icons/elderly.png);
+	    content: url(../icons/elderly.png);
 			background-size: contain;
 	}
 
@@ -317,7 +317,7 @@ Print styles
 	}
 
 	.checkbox {
-		content: url(/icons/checkbox-black.png);
+		content: url(../icons/checkbox-black.png);
 		background-size: contain;
 		float: left;
 		width: 25px;
