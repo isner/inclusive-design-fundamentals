@@ -175,7 +175,6 @@ ul.checklist {
 
 .checklist li {
 	background: url(../icons/checkbox.png) no-repeat left top;
-	background-size: contain;
 	list-style-type: none;
 	padding: 0 0 18px 35px;
 	margin-left: 5px;
@@ -318,7 +317,6 @@ Print styles
 
 	.checkbox {
 		content: url(../icons/checkbox-black.png);
-		background-size: contain;
 		float: left;
 		width: 25px;
 		height: 25px;
