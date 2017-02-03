@@ -315,6 +315,12 @@ Print styles
 		padding: 0;
 	}
 
+	.checklist li::after {
+		clear: both;
+		content: '';
+		display: table;
+	}
+
 	.checkbox {
 		content: url(../icons/checkbox-black.png);
 		float: left;
