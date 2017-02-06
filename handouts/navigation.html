@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Custom Controls - Accessible Design Checklist</title>
-  <meta name="description" content="Custom Controls accessibility checklist for designers">
+  <title>Navigation and Consistency - Accessible Design Checklist</title>
+  <meta name="description" content="Navigation and consistency accessibility checklist for designers">
   <meta name="author" content="Caitlin Geier, Matt Isner, Dennis Lembree">
 
   <link rel="stylesheet" href="../styles/index.css">
@@ -21,17 +21,11 @@
 
 		<input class="print-button" type="button" value="Print this page" onClick="window.print()">
 
-		<h1>Custom Controls</h1>
+		<h1>Navigation and Consistency</h1>
 
-		<p>
-      <span>Use custom controls only when they are truly needed. </span>
-      <span>Specify names, states, and values for every part of the control, </span>
-      <span>as well as all mouse/keyboard interactions.</span>
-    </p>
+		<p>Navigational elements (links, menus) and repeated elements are designed and identified consistently across the site.</p>
 
 		<h2>Users Affected</h2>
-
-		<!--Replace class with name of disability (colorblind, blind, low-vision, cognitive, physical, elderly, deaf) to generate appropriate icon -->
 
 		<div class="col-2">
 			<div class="disability-type">
@@ -45,6 +39,10 @@
 		</div>
 		<div class="col-2">
 			<div class="disability-type">
+				<div class="disability-icon cognitive"></div>
+				<p>Cognitive</p>
+			</div>
+			<div class="disability-type">
 				<div class="disability-icon physical"></div>
 				<p>Mobility</p>
 			</div>
@@ -55,19 +53,19 @@
 		<ul class="checklist">
 			<li>
 				<div class="checkbox"></div>
-				<p>Give custom controls accessible names</p>
+				<p>The purpose of each link can be determined by the link text alone</p>
 			</li>
 			<li>
 				<div class="checkbox"></div>
-				<p>Convey the state of custom controls that are capable of changing state</p>
+				<p>At least two ways are provided to navigate through the site or app, such as a table of contents, a site map, or a search feature</p>
 			</li>
 			<li>
 				<div class="checkbox"></div>
-				<p>Define all keyboard interactions for custom controls</p>
+				<p>Elements of menus and other navigation aids that are repeated on multiple pages are presented in the same order across pages</p>
 			</li>
 			<li>
 				<div class="checkbox"></div>
-				<p>Limit the functionality of custom controls - do one thing well</p>
+				<p>Elements that are repeated across pages (like logo images or footer links) are identified consistently across pages</p>
 			</li>
 		</ul>
 
@@ -75,17 +73,18 @@
 
 		<h3>In WCAG</h3>
 
-		<!-- For WCAG SCs, link to Understanding page -->
-
 		<ul>
 			<li>
-				<a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html">WCAG Success Criterion 2.1.1: Keyboard</a>
+				<a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html">WCAG Success Criterion 2.4.4: Link Purpose (In Context)</a>
 			</li>
 			<li>
-				<a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html">WCAG Success Criterion 2.4.3: Focus Order</a>
+				<a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html">WCAG Success Criterion 2.4.5: Multiple Ways</a>
 			</li>
 			<li>
-				<a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">WCAG Success Criterion 4.1.2: Name, Role, Value</a>
+				<a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html">WCAG Success Criterion 3.2.3: Consistent Navigation</a>
+			</li>
+			<li>
+				<a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html">WCAG Success Criterion 3.2.4: Consistent Identification</a>
 			</li>
 		</ul>
 
