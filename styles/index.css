@@ -2,6 +2,7 @@ body {
 	background-color: #06263F;
 	color: #F1F2F2;
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 
 h1 {
@@ -60,7 +61,7 @@ input:focus, input:active {
 
 #main-content {
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 0 auto 40px;
 }
 
 .title {
@@ -188,6 +189,17 @@ ul.checklist {
 	margin: 0;
 }
 
+#footer {
+    border-top: 1px solid #777;
+    padding-bottom: 10px;
+    background: #031625;
+    font-size: 14px;
+}
+
+#footer p {
+	text-align: center;
+}
+
 /*======================
 Responsive styles
 ======================*/
@@ -264,38 +276,45 @@ Print styles
 	}
 
 	.colorblind {
-    	content: url(../icons/colorblind.png);
-			background-size: contain;
+    	filter: url(inverse.svg#negative);
+      	-webkit-filter: invert(100%);
+      	filter: invert(100%);
 	}
 
 	.low-vision {
-	    content: url(../icons/low-vision.png);
-			background-size: contain;
+	    filter: url(inverse.svg#negative);
+      	-webkit-filter: invert(100%);
+      	filter: invert(100%);
 	}
 
 	.blind {
-	    content: url(../icons/blind.png);
-			background-size: contain;
+	    cfilter: url(inverse.svg#negative);
+      	-webkit-filter: invert(100%);
+      	filter: invert(100%);
 	}
 
 	.cognitive {
-	    content: url(../icons/cognitive.png);
-			background-size: contain;
+	    filter: url(inverse.svg#negative);
+      	-webkit-filter: invert(100%);
+     	filter: invert(100%);
 	}
 
 	.physical {
-	    content: url(../icons/physical.png);
-			background-size: contain;
+	    filter: url(inverse.svg#negative);
+      	-webkit-filter: invert(100%);
+      	filter: invert(100%);
 	}
 
 	.deaf {
-	    content: url(../icons/deaf.png);
-			background-size: contain;
+	   	filter: url(inverse.svg#negative);
+      	-webkit-filter: invert(100%);
+      	filter: invert(100%);
 	}
 
 	.elderly {
-	    content: url(../icons/elderly.png);
-			background-size: contain;
+	    filter: url(inverse.svg#negative);
+      	-webkit-filter: invert(100%);
+      	filter: invert(100%);
 	}
 
 	ul.checklist {
@@ -326,5 +345,9 @@ Print styles
 		float: left;
 		width: 25px;
 		height: 25px;
+	}
+
+	#footer {
+		background: #fff;
 	}
 }
