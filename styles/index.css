@@ -60,6 +60,7 @@ input:focus, input:active {
 }
 
 #main-content {
+	min-height: 600px;
 	max-width: 600px;
 	margin: 0 auto 40px;
 }
